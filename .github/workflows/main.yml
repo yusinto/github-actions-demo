@@ -29,5 +29,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '13.x'
+      - uses: gimenete/github-jest-snapshots@1.0
       - run: yarn
       - run: yarn test
