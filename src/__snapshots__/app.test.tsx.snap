@@ -3,7 +3,7 @@
 exports[`app renders root app component correctly 1`] = `
 <DocumentFragment>
   <div>
-    Hello github actions!
+    Welcome github actions Yus!
   </div>
 </DocumentFragment>
 `;
