@@ -13,7 +13,7 @@ jobs:
       - run: yarn lint
   tsc:
     runs-on: ubuntu-latest
-    name: Check typescript
+    name: Check typescript and jest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -21,14 +21,4 @@ jobs:
           node-version: '13.x'
       - run: yarn
       - run: yarn tsc
-  test:
-    runs-on: ubuntu-latest
-    name: Run tests
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '13.x'
-      - uses: gimenete/github-jest-snapshots@1.0
-      - run: yarn
       - run: yarn test

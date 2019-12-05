@@ -1,13 +1,11 @@
-import React, { FunctionComponent, useState } from 'react'
+import React, { FunctionComponent } from 'react'
+import Home from './home'
 
-interface AppProps {
-  firstName: string
-  lastName?: string
-}
-const App: FunctionComponent<AppProps> = ({ firstName, surname }) => {
+const App = () => {
   return (
     <div>
-      Welcome github actions {firstName} {surname}!
+      Welcome to github actions demo!
+      <Home firstName="Yus" />
     </div>
   )
 }
