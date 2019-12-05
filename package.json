@@ -1,0 +1,45 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "Playground to demo github actions with eslint, typescript and jest",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,ts,tsx,json,mdx,yml}\"",
+    "test": "jest",
+    "tsc": "tsc",
+    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusinto/github-actions-demo.git"
+  },
+  "author": "Yusinto Ngadiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusinto/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/yusinto/github-actions-demo#readme",
+  "devDependencies": {
+    "@testing-library/react": "^9.3.2",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "gatsby-plugin-typescript": "^2.1.19",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

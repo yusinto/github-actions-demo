@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders root app component correctly 1`] = `
+<DocumentFragment>
+  <div>
+    Hello github actions!
+  </div>
+</DocumentFragment>
+`;
