@@ -1,13 +1,7 @@
 import React, { FunctionComponent } from 'react'
-import Home from './home'
 
-const App = () => {
-  return (
-    <div>
-      Welcome to github actions demo!
-      <Home firstName="Yus" />
-    </div>
-  )
+const App: FunctionComponent = () => {
+  return <div>Welcome github actions!</div>
 }
 
 export default App
