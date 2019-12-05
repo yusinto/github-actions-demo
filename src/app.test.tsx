@@ -4,7 +4,7 @@ import App from './app'
 
 describe('app', () => {
   test('renders root app component correctly', () => {
-    const { asFragment } = render(<App firstName="Yus" />)
+    const { asFragment } = render(<App />)
     expect(asFragment()).toMatchSnapshot()
   })
 })

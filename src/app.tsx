@@ -1,10 +1,7 @@
 import React, { FunctionComponent } from 'react'
 
-interface AppProps {
-  firstName: string
-}
-const App: FunctionComponent<AppProps> = ({ firstName }) => {
-  return <div>Welcome github actions {firstName}!</div>
+const App: FunctionComponent = () => {
+  return <div>Welcome github actions!</div>
 }
 
 export default App
